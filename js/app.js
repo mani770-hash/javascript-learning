@@ -34,7 +34,7 @@ btn2.addEventListener("click", function () {
   p1.style.color = "blue";
   p1.classList.remove("hidden");
   p1.innerHTML = "نام کاربری صحیح است";
-  p2.style.color = "green"
-  p2.classList.remove("hidden");
+ 
+  p2.classList.remove("hidden"); p2.style.color = "green";
   p2.innerHTML = "گذرواژه قابل قبول است";
 });
